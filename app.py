@@ -18,7 +18,7 @@ def main():
     if uploaded_file is not None:
         # Load the image
         image = Image.open(uploaded_file)
-        st.image(image, caption="Uploaded Image", use_column_width=True)
+        st.image(image, caption="Uploaded Image",  use_container_width=True)
         st.write("Processing the image...")
 
         # Save the uploaded file temporarily for YOLO input
@@ -36,7 +36,7 @@ def main():
             # Convert result.plot() (numpy array) to an image
             predicted_img = result.plot()
             predicted_img = Image.fromarray(predicted_img)
-            st.image(predicted_img, caption="Predicted Image", use_column_width=True)
+            st.image(predicted_img, caption="Predicted Image",  use_container_width=True)
 
 if __name__ == "__main__":
     main()
