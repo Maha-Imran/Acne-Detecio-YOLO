@@ -1,19 +1,5 @@
-os-sys
-pandas
-opencv-python
-tqdm
-pillow
-ultralytics
-numpy
-tensorflow
-keras
-keras-cv
-matplotlib
-seaborn
-wandb
-cvzone
-ipython
-shutilwhich
-
-
-# pip install -r requirements.txt
+streamlit>=1.0
+ultralytics>=8.0.20
+matplotlib>=3.5.0
+pillow>=9.0.0
+numpy>=1.21.0
