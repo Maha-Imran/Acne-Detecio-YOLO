@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 
 # Load the YOLOv8 model
-model = YOLO('/media/husnain/nain/Programming/Python/UNI/YOLO_Acne_Detection/Deployment/best_yolov8_model.pt')
+model = YOLO('best_yolov8_model.pt')
 
 # Streamlit app
 def main():
